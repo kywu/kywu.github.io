@@ -49,6 +49,7 @@ nav {
 nav ul a {
   color: #000;
 }
+
 .brand-logo-right {
   margin-left: 30px;
   color: #000;
@@ -122,7 +123,7 @@ h5 {
   }
 }
 
-@media (max-height: 600px){
+@media (max-height: 570px){
   h1 {
     font-size: 4em;
   }
