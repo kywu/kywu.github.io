@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "pnova";
+  src: url("fonts/proximanova-light-webfont.woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "pnova";
+  src: url("fonts/proximanova-regular-webfont.woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "pnova";
+  src: url("fonts/proximanova-semibold-webfont.woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "pnova";
+  src: url("fonts/proximanova-bold-webfont.woff2");
+  font-weight: 800;
+}
+
+html {
+  font-family: pnova;
+}
+
+nav {
+  background-color: transparent;
+  border: transparent;
+  width: 50%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  font-weight: bold;
+}
+
+nav ul a {
+  color: #000;
+}
+.brand-logo-right {
+  margin-left: 30px;
+  color: #000;
+}
+
+.right {
+  margin-right: 15px;
+  font-weight: 500;
+}
+
+.leftycat {
+  background-color: #B72F33;
+  height: 90vh;
+  color: white;
+}
+
+.rightycat {
+  background-color: white;
+  height: 90vh;
+  color: black;
+}
+
+.row {
+  margin-bottom: 0;
+}
+
+.container {
+  height: 70vh;
+  margin-top: 20vh;
+}
+
+h1,h4 {
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 6em;
+}
+
+h5 {
+  font-weight: 200;
+}
+
+@media (max-width: 900px){
+  nav ul a {
+    padding: 0 7px;
+  }
+
+  nav {
+    background-color: transparent;
+    border: transparent;
+    width: 100%;
+    position: fixed;
+    right: 0;
+  }
+  nav ul a {
+    color: #000;
+  }
+  .brand-logo-right {
+    color: #FFFFFF;
+  }
+}
+
+@media (max-width: 600px){
+  nav ul a {
+  color: #FFFFFF;
+  }
+  nav .nav-wrapper {
+    background-color: #B72F33;
+    opacity: .9;
+  }
+}
+
+@media (max-height: 600px){
+  h1 {
+    font-size: 4em;
+  }
+  nav .nav-wrapper {
+    line-height: 38px;
+    height: 38px;
+  }
+}
+
+@media (max-height: 365px){
+  h1 {
+    font-size: 4em;
+  }
+
+  h5 {
+    font-size: 1.5em;
+    line-height: 85%;
+  }
+}
