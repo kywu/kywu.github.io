@@ -3,7 +3,6 @@
   src: url("fonts/proximanova-light-webfont.woff2") format('woff2'),
       url("fonts/proximanova-light-webfont.eot?#iefix") format('embedded-opentype'),
        url("fonts/proximanova-light-webfont.woff") format('woff');
-;
   font-weight: 300;
 }
 
@@ -12,7 +11,6 @@
   src: url("fonts/proximanova-regular-webfont.woff2") format('woff2'),
        url("fonts/proximanova-regular-webfont.eot?#iefix") format('embedded-opentype'),
        url("fonts/proximanova-regular-webfont.woff") format('woff');
-;
   font-weight: 500;
 }
 
