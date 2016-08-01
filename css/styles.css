@@ -30,6 +30,9 @@
   font-weight: 800;
 }
 
+p {
+  font-size: 1.1em;
+}
 html {
   font-family: pnova;
 }
