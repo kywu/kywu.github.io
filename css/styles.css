@@ -67,12 +67,14 @@ nav ul a {
   background-color: #B72F33;
   height: 95vh;
   color: white;
+  min-height: 450px;
 }
 
 .rightycat {
   background-color: white;
   height: 95vh;
   color: black;
+  min-height: 450px;
 }
 
 .row {
