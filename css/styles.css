@@ -132,6 +132,9 @@ h5 {
     line-height: 38px;
     height: 38px;
   }
+  h4 {
+    font-size:1.5em;
+  }
 }
 
 @media (max-height: 365px){
