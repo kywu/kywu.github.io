@@ -69,18 +69,20 @@ nav ul a {
   background-color: #B72F33;
   height: 95vh;
   color: white;
-  min-height: 90%;
 }
 
 .rightycat {
   background-color: white;
   height: 95vh;
   color: black;
-  min-height: 90%;
 }
 
 .row {
   margin-bottom: 0;
+}
+
+.jumbo {
+  margin-top: 64px;
 }
 
 .container {
