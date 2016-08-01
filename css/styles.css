@@ -160,7 +160,7 @@ h5 {
     line-height: 85%;
   }
   .row .col {
-    min-height: 15em;
+    min-height: 30em;
     max-height: 40em;
   }
 }
