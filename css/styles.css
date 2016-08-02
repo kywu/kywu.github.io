@@ -143,6 +143,9 @@ h5 {
     background-color: #B72F33;
     opacity: .9;
   }
+  .fa-angle-down {
+    bottom: 5%;
+  }
 }
 
 @media (max-height: 570px){
