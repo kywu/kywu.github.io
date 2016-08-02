@@ -1,3 +1,4 @@
+/*Fonts*/
 @font-face {
   font-family: "pnova";
   src: url("fonts/proximanova-light-webfont.woff2") format('woff2'),
@@ -38,6 +39,7 @@ html {
   background-color: #B72F33;
 }
 
+/*Navbar*/
 nav {
   background-color: transparent;
   border: transparent;
@@ -61,9 +63,23 @@ nav ul a {
   color: #000;
 }
 
+/*Might have to change this*/
 .right {
   margin-right: 15px;
   font-weight: 500;
+}
+
+/*Content*/
+h1,h4 {
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 6em;
+}
+
+h5 {
+  font-weight: 200;
 }
 
 .leftycat {
@@ -87,17 +103,6 @@ nav ul a {
   margin-top: 20vh;
 }
 
-h1,h4 {
-  font-weight: 300;
-}
-
-h1 {
-  font-size: 6em;
-}
-
-h5 {
-  font-weight: 200;
-}
 
 .fa-angle-down {
   color: black;
@@ -107,6 +112,7 @@ h5 {
     transform: translate(-50%, -50%);
 }
 
+/*Media Queries*/
 @media (max-width: 900px){
   nav ul a {
     padding: 0 7px;
