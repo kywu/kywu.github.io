@@ -48,6 +48,7 @@ nav {
   right: 0;
   top: 0;
   font-weight: bold;
+  z-index: 999;
 }
 
 .nav-wrapper {
