@@ -59,10 +59,17 @@ nav ul a {
   color: #000;
 }
 
-.brand-logo-right {
+.side-nav p {
+  padding: 0 16px;
+  color: #000;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/*.brand-logo-right {
   margin-left: 15px;
   color: #000;
-}
+}*/
 
 /*Might have to change this*/
 .right {
@@ -71,7 +78,7 @@ nav ul a {
 }
 
 .brandicon {
-  margin-top: 12px;
+  margin: 12px 0 0 20px;
   max-height: 40px;
 }
 
