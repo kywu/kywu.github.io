@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400px" height="400px" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>kwmon2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="200" cy="200" r="200"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="400" height="400" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="400" height="400" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <circle id="path-5" cx="200" cy="200" r="200"></circle>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="400" height="400" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="400" height="400" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <mask id="mask-3" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Oval" stroke-opacity="0.95" stroke="#2C282B" mask="url(#mask-2)" stroke-width="40">
+                <use mask="url(#mask-4)" xlink:href="#path-1"></use>
+            </g>
+            <path d="M201.527014,200 L476.708676,475.181662 L476.708676,200 L201.527014,200 Z M200.708676,200 L-76,476.708676 L-66.8689112,200 L200.708676,200 Z" id="Combined-Shape" fill="#2C282B" mask="url(#mask-3)"></path>
+            <mask id="mask-7" fill="white">
+                <use xlink:href="#path-5"></use>
+            </mask>
+            <g id="Oval-Copy" stroke-opacity="0.95" stroke="#2C282B" mask="url(#mask-6)" stroke-width="40">
+                <use mask="url(#mask-8)" xlink:href="#path-5"></use>
+            </g>
+            <polygon id="Rectangle-2" fill="#2C282B" mask="url(#mask-7)" points="101 99.1530277 200 39.4374996 299 99.1530277 200 158.868556"></polygon>
+        </g>
+    </g>
+</svg>

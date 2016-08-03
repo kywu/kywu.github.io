@@ -60,7 +60,7 @@ nav ul a {
 }
 
 .brand-logo-right {
-  margin-left: 30px;
+  margin-left: 15px;
   color: #000;
 }
 
@@ -70,6 +70,17 @@ nav ul a {
   font-weight: 500;
 }
 
+.brandicon {
+  margin-top: 8px;
+  max-height: 40px;
+}
+
+#icon1 {
+  display: inline;
+}
+
+#icon2 {display: none;
+}
 
 /*Content*/
 h1,h4 {
@@ -144,6 +155,12 @@ h5 {
   .brand-logo-right {
     color: #FFFFFF;
   }
+  #icon1 {
+    display: none;
+  }
+
+  #icon2 {display: inline;
+  }
 }
 
 @media (max-width: 600px){
@@ -166,10 +183,6 @@ h5 {
 @media (max-height: 570px){
   h1 {
     font-size: 4em;
-  }
-  nav .nav-wrapper {
-    line-height: 38px;
-    height: 38px;
   }
   h4 {
     font-size:1.5em;
