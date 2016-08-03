@@ -39,6 +39,13 @@ html {
   background-color: #B72F33;
 }
 
+h1 {
+  font-size: 4.8rem;
+}
+
+h5 {
+  font-weight: 200;
+}
 /*Navbar*/
 nav {
   background-color: transparent;
@@ -90,18 +97,6 @@ nav ul a {
 }
 
 /*Content*/
-h1,h4 {
-  font-weight: 300;
-}
-
-h1 {
-  font-size: 6em;
-}
-
-h5 {
-  font-weight: 200;
-}
-
 .leftycat {
   background-color: #B72F33;
   height: 95vh;
@@ -132,7 +127,7 @@ h5 {
 
 /* section stylin'*/
 #kevster {
-  margin-top: 22vh;
+  margin-top: 25vh;
 }
 #aboutme {
   margin-top: 25vh;
