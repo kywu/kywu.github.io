@@ -71,7 +71,7 @@ nav ul a {
 }
 
 .brandicon {
-  margin-top: 8px;
+  margin-top: 12px;
   max-height: 40px;
 }
 
@@ -173,6 +173,9 @@ h5 {
   nav .nav-wrapper {
     background-color: #B72F33;
     opacity: .9;
+  }
+  .brandicon {
+    margin-top: 8px;
   }
   .fa-angle-down {
     bottom: 0;
