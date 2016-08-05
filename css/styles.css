@@ -73,6 +73,11 @@ nav ul a {
   font-size: 14px;
 }
 
+.fa-nav {
+  padding-right: 15px;
+}
+
+
 /*.brand-logo-right {
   margin-left: 15px;
   color: #000;
@@ -89,6 +94,10 @@ nav ul a {
   max-height: 40px;
 }
 
+.sideicon {
+  max-height: 60px;
+  margin-left: 100px;
+}
 #icon1 {
   display: inline;
 }
@@ -180,7 +189,6 @@ nav ul a {
     margin-top: 8px;
   }
   .fa-angle-down {
-    bottom: 0;
     color: #FFF;
   }
 }
@@ -192,9 +200,10 @@ nav ul a {
   h4 {
     font-size:1.5em;
   }
+
 }
 
-@media (max-height: 365px){
+@media (max-height: 375px){
   h1 {
     font-size: 4em;
   }
@@ -204,6 +213,9 @@ nav ul a {
     line-height: 85%;
   }
   .row .col {
-    min-height: 30em;
+    min-height: 35em;
+  }
+  .fa-angle-down {
+        transform: translate(-50%, 0%);
   }
 }
