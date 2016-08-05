@@ -108,22 +108,27 @@ nav ul a {
 /*Content*/
 .leftycat {
   background-color: #B72F33;
-  height: 95vh;
+  height: auto;
   color: white;
+  min-height: 95vh;
 }
 
 .rightycat {
   background-color: white;
-  height: 95vh;
+  height: auto;
   color: black;
 }
 
 .row {
   margin-bottom: 0;
 }
+.row .col {
+  min-height: 95vh;
+}
 
 .container {
-  height: 70vh;
+  height: auto;
+  padding-bottom: 25%;
 }
 
 .fa-angle-down {
@@ -136,13 +141,15 @@ nav ul a {
 
 /* section stylin'*/
 #kevster {
-  margin-top: 30%;
+  margin-top: 25vh;
 }
 #aboutme {
-  margin-top: 30%;
+  margin-top: 25vh;
 }
 
 /*Media Queries*/
+
+/* less big screen sizes */
 @media (max-width: 900px){
   nav ul a {
     padding: 0 7px;
@@ -174,6 +181,7 @@ nav ul a {
   }
 }
 
+/* regular mobile */
 @media (max-width: 600px){
   nav .nav-wrapper {
     background-image: none;
@@ -191,8 +199,12 @@ nav ul a {
   .fa-angle-down {
     color: #FFF;
   }
+  #aboutme {
+    margin-top: 20%;
+  }
 }
 
+/* you shouldn't view this in landscape on mobile, but if you insist... */
 @media (max-height: 570px){
   h1 {
     font-size: 4em;
@@ -211,9 +223,6 @@ nav ul a {
   h5 {
     font-size: 1.5em;
     line-height: 85%;
-  }
-  .row .col {
-    min-height: 35em;
   }
   .fa-angle-down {
         transform: translate(-50%, 0%);
