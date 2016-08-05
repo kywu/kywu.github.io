@@ -141,10 +141,10 @@ nav ul a {
 
 /* section stylin'*/
 #kevster {
-  margin-top: 25vh;
+  padding-top: 20vh;
 }
 #aboutme {
-  margin-top: 25vh;
+  padding-top: 20vh;
 }
 
 /*Media Queries*/
