@@ -227,4 +227,7 @@ nav ul a {
   .fa-angle-down {
         transform: translate(-50%, 0%);
   }
+  #aboutme #kevster {
+    margin-top: 30%;
+  }
 }
