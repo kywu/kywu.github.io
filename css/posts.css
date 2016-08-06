@@ -31,29 +31,19 @@
   font-weight: 800;
 }
 
-p {
-  font-size: 16px;
-}
 html {
   font-family: pnova;
-  background-color: #B72F33;
+  background-color: #fff;
 }
 
-h1 {
-  font-size: 4.8rem;
-}
-
-h5 {
-  font-weight: 200;
-}
 /*Navbar*/
 nav {
   background-color: transparent;
   border: transparent;
   width: 50%;
   position: fixed;
-  right: 0;
-  top: 0;
+  right: 25%;
+  top: 15px;
   font-weight: bold;
   z-index: 999;
 }
@@ -91,145 +81,23 @@ nav ul a {
   max-height: 60px;
   margin-left: 100px;
 }
-#icon1 {
-  display: inline;
-}
-
-#icon2 {display: none;
-}
-
-/*Content*/
-.leftycat {
-  background-color: #B72F33;
-  height: auto;
-  color: white;
-  min-height: 95vh;
-}
-
-.rightycat {
-  background-color: white;
-  height: auto;
-  color: black;
-}
-
-.row {
-  margin-bottom: 0;
-}
-.row .intropg {
-  min-height: 95vh;
-}
-
-.container {
-  height: auto;
-  padding-bottom: 25%;
-}
-
-.fa-angle-down {
-  color: black;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.contacticons {
-  text-align: center;
-}
-.todaybig {
-  font-size: 120px !important;
-  margin-top: 40px;
-  display: inline-block;
-}
-
-.iconend {
-  margin-bottom: 40px;
-}
-/* section stylin'*/
-#kevster {
-  padding-top: 20vh;
-}
-#aboutme {
-  padding-top: 20vh;
-}
 
 /*Media Queries*/
 
 /* less big screen sizes */
 @media (max-width: 900px){
-  nav ul a {
-    padding: 0 7px;
-  }
-
   nav {
     background-color: transparent;
     border: transparent;
     width: 100%;
     position: fixed;
     right: 0;
-  }
-  nav .nav-wrapper{
-    background-image:url(./img/navtest2.png);
-    background-size: 100% 100%;
-    opacity: .9;
-  }
-  nav ul a {
-    color: #000;
-  }
-  .brand-logo-right {
-    color: #FFFFFF;
-  }
-  #icon1 {
-    display: none;
-  }
-
-  #icon2 {display: inline;
+    top: 0;
   }
 }
-
 /* regular mobile */
-@media (max-width: 600px){
-  nav .nav-wrapper {
-    background-image: none;
-  }
-  nav ul a {
-  color: #FFFFFF;
-  }
-  nav .nav-wrapper {
-    background-color: #B72F33;
-    opacity: .9;
-  }
+@media (max-width: 640px){
   .brandicon {
     margin-top: 8px;
-  }
-  .fa-angle-down {
-    color: #FFF;
-  }
-  #aboutme {
-    padding-top: 10vh;
-  }
-}
-
-/* you shouldn't view this in landscape on mobile, but if you insist... */
-@media (max-height: 570px){
-  h1 {
-    font-size: 4em;
-  }
-  h4 {
-    font-size:1.5em;
-  }
-
-}
-
-@media (max-height: 375px){
-  h1 {
-    font-size: 4em;
-  }
-
-  h5 {
-    font-size: 1.5em;
-    line-height: 85%;
-  }
-  .fa-angle-down {
-        transform: translate(-50%, 0%);
   }
 }
