@@ -136,13 +136,31 @@ nav ul a {
   text-align: center;
 }
 .todaybig {
-  font-size: 78px !important;
+  font-size: 68px !important;
   margin-top: 40px;
   display: inline-block;
 }
 
 .iconend {
   margin-bottom: 40px;
+}
+
+.btn {
+  width: 100%;
+}
+
+textarea {
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  resize: none;
+  margin-bottom: 15px;
+}
+
+textarea:focus {
+  outline: none !important;
+  border-color: #4db6ac;
+  border-width: 2px;
 }
 /* section stylin'*/
 #kevster {
