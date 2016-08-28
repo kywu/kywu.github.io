@@ -31,6 +31,9 @@
   font-weight: 800;
 }
 
+a {
+  color: white;
+}
 h6 {
   font-size: 16px;
 }
@@ -154,8 +157,10 @@ textarea {
   border-top: transparent;
   border-left: transparent;
   border-right: transparent;
+  border-color: #9E9E9E;
   resize: none;
   margin-bottom: 15px;
+  min-height: 2.5em;
 }
 
 textarea:focus {
@@ -206,6 +211,10 @@ textarea:focus {
 
   #icon2 {display: inline;
   }
+}
+
+.fa:hover{
+  color: #3c2d2d;
 }
 
 /* regular mobile */
