@@ -161,6 +161,7 @@ textarea {
   resize: none;
   margin-bottom: 15px;
   min-height: 2.5em;
+  margin-top: 10px;
 }
 
 textarea:focus {
